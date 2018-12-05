@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4934BCBE21AFD1E1001E84B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4934BCBD21AFD1E1001E84B1 /* AppDelegate.m */; };
+		4934BCC121AFD1E1001E84B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4934BCC021AFD1E1001E84B1 /* ViewController.m */; };
+		4934BCC421AFD1E1001E84B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4934BCC221AFD1E1001E84B1 /* Main.storyboard */; };
+		4934BCC621AFD1E2001E84B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4934BCC521AFD1E2001E84B1 /* Assets.xcassets */; };
+		4934BCC921AFD1E2001E84B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4934BCC721AFD1E2001E84B1 /* LaunchScreen.storyboard */; };
+		4934BCCC21AFD1E2001E84B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4934BCCB21AFD1E2001E84B1 /* main.m */; };
+		4934BCD621AFD1E2001E84B1 /* arkTimerNotiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4934BCD521AFD1E2001E84B1 /* arkTimerNotiTests.m */; };
+		4934BCE121AFD1E2001E84B1 /* arkTimerNotiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4934BCE021AFD1E2001E84B1 /* arkTimerNotiUITests.m */; };
+		4934BCF121AFD27A001E84B1 /* ArkTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4934BCEF21AFD27A001E84B1 /* ArkTableViewCell.m */; };
+		4934BCF221AFD27A001E84B1 /* ArkTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4934BCF021AFD27A001E84B1 /* ArkTableViewCell.xib */; };
+		4934BCF621AFD344001E84B1 /* ArkTimerNoti.m in Sources */ = {isa = PBXBuildFile; fileRef = 4934BCF521AFD344001E84B1 /* ArkTimerNoti.m */; };
+		4934BCF921AFD3CE001E84B1 /* arkM.m in Sources */ = {isa = PBXBuildFile; fileRef = 4934BCF821AFD3CE001E84B1 /* arkM.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4934BCD221AFD1E2001E84B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4934BCB121AFD1E1001E84B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4934BCB821AFD1E1001E84B1;
+			remoteInfo = arkTimerNoti;
+		};
+		4934BCDD21AFD1E2001E84B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4934BCB121AFD1E1001E84B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4934BCB821AFD1E1001E84B1;
+			remoteInfo = arkTimerNoti;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4934BCB921AFD1E1001E84B1 /* arkTimerNoti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = arkTimerNoti.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4934BCBC21AFD1E1001E84B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4934BCBD21AFD1E1001E84B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4934BCBF21AFD1E1001E84B1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4934BCC021AFD1E1001E84B1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4934BCC321AFD1E1001E84B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4934BCC521AFD1E2001E84B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4934BCC821AFD1E2001E84B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4934BCCA21AFD1E2001E84B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4934BCCB21AFD1E2001E84B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4934BCD121AFD1E2001E84B1 /* arkTimerNotiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = arkTimerNotiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4934BCD521AFD1E2001E84B1 /* arkTimerNotiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = arkTimerNotiTests.m; sourceTree = "<group>"; };
+		4934BCD721AFD1E2001E84B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4934BCDC21AFD1E2001E84B1 /* arkTimerNotiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = arkTimerNotiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4934BCE021AFD1E2001E84B1 /* arkTimerNotiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = arkTimerNotiUITests.m; sourceTree = "<group>"; };
+		4934BCE221AFD1E2001E84B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4934BCEE21AFD27A001E84B1 /* ArkTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArkTableViewCell.h; sourceTree = "<group>"; };
+		4934BCEF21AFD27A001E84B1 /* ArkTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArkTableViewCell.m; sourceTree = "<group>"; };
+		4934BCF021AFD27A001E84B1 /* ArkTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArkTableViewCell.xib; sourceTree = "<group>"; };
+		4934BCF421AFD344001E84B1 /* ArkTimerNoti.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArkTimerNoti.h; sourceTree = "<group>"; };
+		4934BCF521AFD344001E84B1 /* ArkTimerNoti.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArkTimerNoti.m; sourceTree = "<group>"; };
+		4934BCF721AFD3CE001E84B1 /* arkM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = arkM.h; sourceTree = "<group>"; };
+		4934BCF821AFD3CE001E84B1 /* arkM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = arkM.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4934BCB621AFD1E1001E84B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4934BCCE21AFD1E2001E84B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4934BCD921AFD1E2001E84B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4934BCB021AFD1E1001E84B1 = {
+			isa = PBXGroup;
+			children = (
+				4934BCF321AFD32C001E84B1 /* timerNoti */,
+				4934BCBB21AFD1E1001E84B1 /* arkTimerNoti */,
+				4934BCD421AFD1E2001E84B1 /* arkTimerNotiTests */,
+				4934BCDF21AFD1E2001E84B1 /* arkTimerNotiUITests */,
+				4934BCBA21AFD1E1001E84B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4934BCBA21AFD1E1001E84B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4934BCB921AFD1E1001E84B1 /* arkTimerNoti.app */,
+				4934BCD121AFD1E2001E84B1 /* arkTimerNotiTests.xctest */,
+				4934BCDC21AFD1E2001E84B1 /* arkTimerNotiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4934BCBB21AFD1E1001E84B1 /* arkTimerNoti */ = {
+			isa = PBXGroup;
+			children = (
+				4934BCBC21AFD1E1001E84B1 /* AppDelegate.h */,
+				4934BCBD21AFD1E1001E84B1 /* AppDelegate.m */,
+				4934BCBF21AFD1E1001E84B1 /* ViewController.h */,
+				4934BCC021AFD1E1001E84B1 /* ViewController.m */,
+				4934BCEE21AFD27A001E84B1 /* ArkTableViewCell.h */,
+				4934BCEF21AFD27A001E84B1 /* ArkTableViewCell.m */,
+				4934BCF021AFD27A001E84B1 /* ArkTableViewCell.xib */,
+				4934BCF721AFD3CE001E84B1 /* arkM.h */,
+				4934BCF821AFD3CE001E84B1 /* arkM.m */,
+				4934BCC221AFD1E1001E84B1 /* Main.storyboard */,
+				4934BCC521AFD1E2001E84B1 /* Assets.xcassets */,
+				4934BCC721AFD1E2001E84B1 /* LaunchScreen.storyboard */,
+				4934BCCA21AFD1E2001E84B1 /* Info.plist */,
+				4934BCCB21AFD1E2001E84B1 /* main.m */,
+			);
+			path = arkTimerNoti;
+			sourceTree = "<group>";
+		};
+		4934BCD421AFD1E2001E84B1 /* arkTimerNotiTests */ = {
+			isa = PBXGroup;
+			children = (
+				4934BCD521AFD1E2001E84B1 /* arkTimerNotiTests.m */,
+				4934BCD721AFD1E2001E84B1 /* Info.plist */,
+			);
+			path = arkTimerNotiTests;
+			sourceTree = "<group>";
+		};
+		4934BCDF21AFD1E2001E84B1 /* arkTimerNotiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4934BCE021AFD1E2001E84B1 /* arkTimerNotiUITests.m */,
+				4934BCE221AFD1E2001E84B1 /* Info.plist */,
+			);
+			path = arkTimerNotiUITests;
+			sourceTree = "<group>";
+		};
+		4934BCF321AFD32C001E84B1 /* timerNoti */ = {
+			isa = PBXGroup;
+			children = (
+				4934BCF421AFD344001E84B1 /* ArkTimerNoti.h */,
+				4934BCF521AFD344001E84B1 /* ArkTimerNoti.m */,
+			);
+			path = timerNoti;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4934BCB821AFD1E1001E84B1 /* arkTimerNoti */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4934BCE521AFD1E2001E84B1 /* Build configuration list for PBXNativeTarget "arkTimerNoti" */;
+			buildPhases = (
+				4934BCB521AFD1E1001E84B1 /* Sources */,
+				4934BCB621AFD1E1001E84B1 /* Frameworks */,
+				4934BCB721AFD1E1001E84B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = arkTimerNoti;
+			productName = arkTimerNoti;
+			productReference = 4934BCB921AFD1E1001E84B1 /* arkTimerNoti.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4934BCD021AFD1E2001E84B1 /* arkTimerNotiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4934BCE821AFD1E2001E84B1 /* Build configuration list for PBXNativeTarget "arkTimerNotiTests" */;
+			buildPhases = (
+				4934BCCD21AFD1E2001E84B1 /* Sources */,
+				4934BCCE21AFD1E2001E84B1 /* Frameworks */,
+				4934BCCF21AFD1E2001E84B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4934BCD321AFD1E2001E84B1 /* PBXTargetDependency */,
+			);
+			name = arkTimerNotiTests;
+			productName = arkTimerNotiTests;
+			productReference = 4934BCD121AFD1E2001E84B1 /* arkTimerNotiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4934BCDB21AFD1E2001E84B1 /* arkTimerNotiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4934BCEB21AFD1E2001E84B1 /* Build configuration list for PBXNativeTarget "arkTimerNotiUITests" */;
+			buildPhases = (
+				4934BCD821AFD1E2001E84B1 /* Sources */,
+				4934BCD921AFD1E2001E84B1 /* Frameworks */,
+				4934BCDA21AFD1E2001E84B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4934BCDE21AFD1E2001E84B1 /* PBXTargetDependency */,
+			);
+			name = arkTimerNotiUITests;
+			productName = arkTimerNotiUITests;
+			productReference = 4934BCDC21AFD1E2001E84B1 /* arkTimerNotiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4934BCB121AFD1E1001E84B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "小华";
+				TargetAttributes = {
+					4934BCB821AFD1E1001E84B1 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					4934BCD021AFD1E2001E84B1 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 4934BCB821AFD1E1001E84B1;
+					};
+					4934BCDB21AFD1E2001E84B1 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 4934BCB821AFD1E1001E84B1;
+					};
+				};
+			};
+			buildConfigurationList = 4934BCB421AFD1E1001E84B1 /* Build configuration list for PBXProject "arkTimerNoti" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4934BCB021AFD1E1001E84B1;
+			productRefGroup = 4934BCBA21AFD1E1001E84B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4934BCB821AFD1E1001E84B1 /* arkTimerNoti */,
+				4934BCD021AFD1E2001E84B1 /* arkTimerNotiTests */,
+				4934BCDB21AFD1E2001E84B1 /* arkTimerNotiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4934BCB721AFD1E1001E84B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4934BCC921AFD1E2001E84B1 /* LaunchScreen.storyboard in Resources */,
+				4934BCC621AFD1E2001E84B1 /* Assets.xcassets in Resources */,
+				4934BCF221AFD27A001E84B1 /* ArkTableViewCell.xib in Resources */,
+				4934BCC421AFD1E1001E84B1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4934BCCF21AFD1E2001E84B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4934BCDA21AFD1E2001E84B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4934BCB521AFD1E1001E84B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4934BCC121AFD1E1001E84B1 /* ViewController.m in Sources */,
+				4934BCCC21AFD1E2001E84B1 /* main.m in Sources */,
+				4934BCF121AFD27A001E84B1 /* ArkTableViewCell.m in Sources */,
+				4934BCF621AFD344001E84B1 /* ArkTimerNoti.m in Sources */,
+				4934BCF921AFD3CE001E84B1 /* arkM.m in Sources */,
+				4934BCBE21AFD1E1001E84B1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4934BCCD21AFD1E2001E84B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4934BCD621AFD1E2001E84B1 /* arkTimerNotiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4934BCD821AFD1E2001E84B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4934BCE121AFD1E2001E84B1 /* arkTimerNotiUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4934BCD321AFD1E2001E84B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4934BCB821AFD1E1001E84B1 /* arkTimerNoti */;
+			targetProxy = 4934BCD221AFD1E2001E84B1 /* PBXContainerItemProxy */;
+		};
+		4934BCDE21AFD1E2001E84B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4934BCB821AFD1E1001E84B1 /* arkTimerNoti */;
+			targetProxy = 4934BCDD21AFD1E2001E84B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4934BCC221AFD1E1001E84B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4934BCC321AFD1E1001E84B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4934BCC721AFD1E2001E84B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4934BCC821AFD1E2001E84B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4934BCE321AFD1E2001E84B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4934BCE421AFD1E2001E84B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4934BCE621AFD1E2001E84B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = arkTimerNoti/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = arkTimerNoti.arkTimerNoti;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4934BCE721AFD1E2001E84B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = arkTimerNoti/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = arkTimerNoti.arkTimerNoti;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4934BCE921AFD1E2001E84B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = arkTimerNotiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = arkTimerNoti.arkTimerNotiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/arkTimerNoti.app/arkTimerNoti";
+			};
+			name = Debug;
+		};
+		4934BCEA21AFD1E2001E84B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = arkTimerNotiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = arkTimerNoti.arkTimerNotiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/arkTimerNoti.app/arkTimerNoti";
+			};
+			name = Release;
+		};
+		4934BCEC21AFD1E2001E84B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = arkTimerNotiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = arkTimerNoti.arkTimerNotiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = arkTimerNoti;
+			};
+			name = Debug;
+		};
+		4934BCED21AFD1E2001E84B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = arkTimerNotiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = arkTimerNoti.arkTimerNotiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = arkTimerNoti;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4934BCB421AFD1E1001E84B1 /* Build configuration list for PBXProject "arkTimerNoti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4934BCE321AFD1E2001E84B1 /* Debug */,
+				4934BCE421AFD1E2001E84B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4934BCE521AFD1E2001E84B1 /* Build configuration list for PBXNativeTarget "arkTimerNoti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4934BCE621AFD1E2001E84B1 /* Debug */,
+				4934BCE721AFD1E2001E84B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4934BCE821AFD1E2001E84B1 /* Build configuration list for PBXNativeTarget "arkTimerNotiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4934BCE921AFD1E2001E84B1 /* Debug */,
+				4934BCEA21AFD1E2001E84B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4934BCEB21AFD1E2001E84B1 /* Build configuration list for PBXNativeTarget "arkTimerNotiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4934BCEC21AFD1E2001E84B1 /* Debug */,
+				4934BCED21AFD1E2001E84B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4934BCB121AFD1E1001E84B1 /* Project object */;
+}
