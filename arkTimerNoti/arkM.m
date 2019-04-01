@@ -22,13 +22,13 @@
 }
 
 
-//- (void)countDown
-//{
-//    int tempTime= self.time.intValue;
-//    tempTime-=1;
-//    self.time=[NSString stringWithFormat:@"%d",tempTime];
-//    
-//}
+- (void)countDown
+{
+    int tempTime= self.time.intValue;
+    tempTime-=1;
+    self.time=[NSString stringWithFormat:@"%d",tempTime];
+    
+}
 
 
 

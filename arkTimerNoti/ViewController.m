@@ -56,7 +56,7 @@
     }];
     
     //给数据源添加计时器 实现countDown方法
-    [[ArkTimerNoti new] createTimer:self.datas];
+    [ArkTimerNoti.new createTimer:self.datas];
     
 
 }
