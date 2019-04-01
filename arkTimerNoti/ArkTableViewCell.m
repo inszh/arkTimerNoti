@@ -46,6 +46,7 @@
     self.time.text=model.time;
 }
 
+
 - (void)notificationCenterEvent:(NSNotification *)noti
 {
     self.time.text=self.model.time;
