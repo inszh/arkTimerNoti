@@ -8,6 +8,7 @@
 
 #import "ArkTableViewCell.h"
 #import "arkM.h"
+#import "ArkTimerNotiHeader.h"
 
 @interface ArkTableViewCell ()
 
@@ -27,6 +28,7 @@
     ArkTableViewCell *cell=[tableView dequeueReusableCellWithIdentifier:ID];
     
     if (cell==nil) {
+        
         NSString *name=NSStringFromClass(self);
         
         cell=[[[NSBundle  mainBundle]loadNibNamed:name owner:self options:nil]  lastObject];
@@ -48,6 +50,7 @@
 {
     self.time.text=self.model.time;
 }
+
 
 
 @end

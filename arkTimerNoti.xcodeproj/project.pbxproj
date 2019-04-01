@@ -19,6 +19,8 @@
 		4934BCF221AFD27A001E84B1 /* ArkTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4934BCF021AFD27A001E84B1 /* ArkTableViewCell.xib */; };
 		4934BCF621AFD344001E84B1 /* ArkTimerNoti.m in Sources */ = {isa = PBXBuildFile; fileRef = 4934BCF521AFD344001E84B1 /* ArkTimerNoti.m */; };
 		4934BCF921AFD3CE001E84B1 /* arkM.m in Sources */ = {isa = PBXBuildFile; fileRef = 4934BCF821AFD3CE001E84B1 /* arkM.m */; };
+		4940F0472252132400746678 /* UIView+Ark.m in Sources */ = {isa = PBXBuildFile; fileRef = 4940F0462252132400746678 /* UIView+Ark.m */; };
+		4940F04A2252157F00746678 /* NSObject+ArkM.m in Sources */ = {isa = PBXBuildFile; fileRef = 4940F0492252157F00746678 /* NSObject+ArkM.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +64,11 @@
 		4934BCF521AFD344001E84B1 /* ArkTimerNoti.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArkTimerNoti.m; sourceTree = "<group>"; };
 		4934BCF721AFD3CE001E84B1 /* arkM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = arkM.h; sourceTree = "<group>"; };
 		4934BCF821AFD3CE001E84B1 /* arkM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = arkM.m; sourceTree = "<group>"; };
+		4940F0452252132400746678 /* UIView+Ark.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Ark.h"; sourceTree = "<group>"; };
+		4940F0462252132400746678 /* UIView+Ark.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Ark.m"; sourceTree = "<group>"; };
+		4940F0482252157F00746678 /* NSObject+ArkM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+ArkM.h"; sourceTree = "<group>"; };
+		4940F0492252157F00746678 /* NSObject+ArkM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ArkM.m"; sourceTree = "<group>"; };
+		4940F04B225215DB00746678 /* ArkTimerNotiHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArkTimerNotiHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +161,11 @@
 			children = (
 				4934BCF421AFD344001E84B1 /* ArkTimerNoti.h */,
 				4934BCF521AFD344001E84B1 /* ArkTimerNoti.m */,
+				4940F0452252132400746678 /* UIView+Ark.h */,
+				4940F0462252132400746678 /* UIView+Ark.m */,
+				4940F0482252157F00746678 /* NSObject+ArkM.h */,
+				4940F0492252157F00746678 /* NSObject+ArkM.m */,
+				4940F04B225215DB00746678 /* ArkTimerNotiHeader.h */,
 			);
 			path = timerNoti;
 			sourceTree = "<group>";
@@ -289,9 +301,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4940F04A2252157F00746678 /* NSObject+ArkM.m in Sources */,
 				4934BCC121AFD1E1001E84B1 /* ViewController.m in Sources */,
 				4934BCCC21AFD1E2001E84B1 /* main.m in Sources */,
 				4934BCF121AFD27A001E84B1 /* ArkTableViewCell.m in Sources */,
+				4940F0472252132400746678 /* UIView+Ark.m in Sources */,
 				4934BCF621AFD344001E84B1 /* ArkTimerNoti.m in Sources */,
 				4934BCF921AFD3CE001E84B1 /* arkM.m in Sources */,
 				4934BCBE21AFD1E1001E84B1 /* AppDelegate.m in Sources */,
@@ -466,6 +480,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3248BG82R5;
 				INFOPLIST_FILE = arkTimerNoti/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -482,6 +497,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3248BG82R5;
 				INFOPLIST_FILE = arkTimerNoti/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

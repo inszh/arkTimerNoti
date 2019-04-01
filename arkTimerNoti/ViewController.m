@@ -8,8 +8,8 @@
 
 #import "ViewController.h"
 #import "ArkTableViewCell.h"
-#import "ArkTimerNoti.h"
 #import "arkM.h"
+#import "ArkTimerNotiHeader.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property(nonatomic,strong)UITableView *tableView;
@@ -55,15 +55,15 @@
         [self.datas addObject:model];
     }];
     
-    
+    //给数据源添加计时器 实现countDown方法
     [[ArkTimerNoti new] createTimer:self.datas];
-    
 
 }
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     ArkTableViewCell *cell=[ArkTableViewCell cellWithTableView:tableView];
+    //对cell做绑定操作 实现方法在view中实现notificationCenterEvent方法赋值
     [ArkTimerNoti registerTimerNotificationCenter:cell];
     cell.model=self.datas[indexPath.row];
     return cell;

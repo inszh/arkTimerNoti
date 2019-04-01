@@ -7,7 +7,7 @@
 //
 
 #import "arkM.h"
-
+#import "ArkTimerNotiHeader.h"
 @implementation arkM
 
 
@@ -29,6 +29,7 @@
     self.time=[NSString stringWithFormat:@"%d",tempTime];
     
 }
+
 
 
 @end

@@ -35,7 +35,7 @@
     [self.datas enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         [obj performSelector:@selector(countDown)];
     }];
-    
+     
     [[NSNotificationCenter defaultCenter] postNotificationName:ARKNOTIFICATION object:nil];
 }
 
