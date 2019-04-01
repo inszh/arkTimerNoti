@@ -37,17 +37,25 @@
     tableView.dataSource=self;
     
     NSArray *temps = @[@{@"title": @"剩余时间",
-                     @"time": @"12345"},
-                   @{@"title": @"剩余时间",
-                     @"time": @"43252345"},
-                   @{@"title": @"剩余时间",
-                     @"time": @"1113"},
-                   @{@"title": @"剩余时间",
-                     @"time": @"3245"},
-                   @{@"title": @"剩余时间",
-                     @"time": @"5786"},
-                   @{@"title": @"剩余时间",
-                     @"time": @"19"}
+                         @"time": @"12345"},
+                       @{@"title": @"剩余时间",
+                         @"time": @"43252345"},
+                       @{@"title": @"剩余时间",
+                         @"time": @"1113"},
+                       @{@"title": @"剩余时间",
+                         @"time": @"3245"},
+                       @{@"title": @"剩余时间",
+                         @"time": @"5786"},
+                       @{@"title": @"剩余时间",
+                         @"time": @"43252345"},
+                       @{@"title": @"剩余时间",
+                         @"time": @"33"},
+                       @{@"title": @"剩余时间",
+                         @"time": @"3245"},
+                       @{@"title": @"剩余时间",
+                         @"time": @"25"},
+                       @{@"title": @"剩余时间",
+                         @"time": @"19"}
                        ];
     
     [temps enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
@@ -55,7 +63,7 @@
         [self.datas addObject:model];
     }];
     
-    //给数据源添加计时器 实现countDown方法
+    //给数据源添加计时器 需要在模型中实现countDown方法
     [ArkTimerNoti.new createTimer:self.datas];
     
 
@@ -64,7 +72,7 @@
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     ArkTableViewCell *cell=[ArkTableViewCell cellWithTableView:tableView];
-    //对cell做绑定操作 实现方法在view中实现notificationCenterEvent方法赋值
+    //对cell做绑定操作 需要在控件中实现notificationCenterEvent方法
     [ArkTimerNoti registerTimerNotificationCenter:cell];
     cell.model=self.datas[indexPath.row];
     return cell;
